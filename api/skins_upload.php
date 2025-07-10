@@ -209,7 +209,7 @@ function handleFileUpload() {
 // Function to upload image to Imgur
 function uploadImageToImgur(base64Image) {
     const clientId = '00c34b85d180b51'; // Thay YOUR_IMGUR_CLIENT_ID bằng clientId của bạn từ Imgur
-    fetch('https://api.imgur.com/3/image', {
+    fetch('https://i.imgur.com/L3SwnsK.png', {
         method: 'POST',
         headers: {
             'Authorization': `Client-ID ${clientId}`,
